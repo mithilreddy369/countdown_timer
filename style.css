@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(45deg, 
+    #3498db, #2980b9, #1abc9c, #16a085, 
+    #e74c3c, #c0392b, #2ecc71, #27ae60, 
+    #f39c12, #d35400, #9b59b6, #8e44ad, 
+    #1abc9c, #16a085, #e67e22, #d35400, 
+    #3498db, #2980b9, #1abc9c, #16a085, 
+    #e74c3c, #c0392b, #2ecc71, #27ae60, 
+    #f39c12, #d35400, #9b59b6, #8e44ad);
+  background-size: 1000% 1000%;
+  animation: gradientAnimation 40s linear infinite; /* Adjusted duration to 40s */
+}
+
+#countdown {
+  text-align: center;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 10em;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  padding: 10px; /* Add padding for better visibility */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
