@@ -13,7 +13,7 @@ body {
     #e74c3c, #c0392b, #2ecc71, #27ae60, 
     #f39c12, #d35400, #9b59b6, #8e44ad);
   background-size: 1000% 1000%;
-  animation: gradientAnimation 40s linear infinite; /* Adjusted duration to 40s */
+  animation: gradientAnimation 300s linear infinite; /* Adjusted duration to 40s */
 }
 
 #countdown {
@@ -22,8 +22,7 @@ body {
   font-family: 'Arial', sans-serif;
   font-size: 10em;
   font-weight: bold;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-  border: 2px solid #fff;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
   padding: 10px; /* Add padding for better visibility */
 }
 
